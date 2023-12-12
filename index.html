@@ -1,45 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Ramisa // Web Developer</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
-  <!-- main logo / nav -->
+
   <header>
-    <h1>Lernantino</h1>
+    <div class="header">
+      <h1>Ramisa Chowdhury.</h1>
+      <h2>Crafting captivating code.</h2>
+    </div>
+
     <nav>
+      <ul class="container-nav">
+        <a href="#about"><li>About</li></a>
+        <a href="#work"><li>Work</li></a>
+        <a href="#contact"><li>Contact</li></a>
+        <a href="#resume"><li>Resume</li></a>
+      </ul>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+  <hr/>
 
   <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="page-section about-me" id="about">
+      <h3>About Me</h3>
+      <p>Hi, I am Ramisa. I quit my job as an NHS doctor to code captivating websites. This is my portfolio of recent projects.</p>
+      <img src="../starter/images/ramisa.png" class="me" alt="woman wearing hijab">
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <hr/>
+    
+    <section class="page-section work" id="work">
+      <h3>Work</h3>
+      <div class="projects">
+
+        <div class="project-2">
+          <a style="display: contents" href="./images/project-2.png">
+            <img src="./images/project-2.png" class="project-2-img" alt="hypertext markup language webpage">
+          </a>
+          <h4>Project 2</h4>
+          <p>HTML</p>
+        </div>
+
+        <div class="project-1">
+          <a style="display: contents" href="./images/project-1.png">
+            <img src="./images/project-1.png" class="project-1-img" alt="cascading style sheets webpage">
+          </a>
+          <h4>Project 1</h4>
+          <p>CSS</p>
+        </div>
+
+        <div class="project-3">
+          <a style="display: contents" href="./images/project-3.png">
+            <img src="./images/project-3.png" class="project-3-img" alt="javascrip webpage">
+          </a>
+          <h4>Project 3</h4>
+          <p>JavaScript</p>
+        </div>
+
+      </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <hr/>
+
+    <section class="page-section contact-me" id="contact">
+      <h3>Contact Me</h3>
+      <p>phone: +447700000001 | email: ramisachowdhury@gmail.com |  linkedin: <a href="https://www.linkedin.com/in/ramisa-chowdhury-292885158">RC</a> | Github: <a href="https://github.com/RamisaChowdhury">RC</a></p>
+    </section>
+
+    <hr/>
+  
+    <section class="page-section resume" id="resume">
+      <h3>Resume</h3>
+      <embed src="resume.pdf" width="800px" height="400px" />
     </section>
   </main>
+
+  <footer>
+    <p>© 2023 Ramisa Chowdhury. All rights reserved.</p>
+  </footer>
+
 </body>
 
 </html>
